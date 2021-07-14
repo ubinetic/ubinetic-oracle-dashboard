@@ -1,0 +1,38 @@
+.status--icon {
+  width: 16px;
+  height: 16px;
+}
+.status-icon__sm {
+  width: 10px;
+  height: 10px;
+}
+.transmitter--logo {
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f7;
+}
+.transmitter--frag {
+  height: 24px;
+  flex: 0 0 auto;
+  margin-right: 2px;
+  min-width: 0.46rem;
+  border-radius: 20px;
+}
+.frag--active__1 {
+  background-color: #2a9d8f;
+}
+.frag--active__2 {
+  background-color: red;
+}
+.frag--active__3 {
+  background-color: #fd481d;
+}
+textarea {
+  width: 100%;
+}
+.accordion-item {
+  border-radius: 12px;
+}
+.iconify {
+  cursor: pointer;
+}

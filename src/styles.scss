@@ -1,0 +1,36 @@
+/* custom colors */
+$theme-colors: (
+  "primary": #2a9d8f,
+);
+
+$body-bg: #fafafa;
+$accordion-bg: #fff;
+$card-border-width: 0;
+$card-border-radius: 12px;
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.container {
+  max-width: 960px !important;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
