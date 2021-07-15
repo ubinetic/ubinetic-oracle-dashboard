@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "actions:deploy": "ng deploy --name $GITHUB_ACTOR --email $GITHUB_ACTOR@users.noreply.github.com --no-silent",
-    "actions:prettier": "prettier \"src/**/*.ts\" \"e2e/**/*.ts\" \"angular.json\" \"README.md\" --list-different",
+    "actions:prettier": "prettier \"src/**/*.ts\" \"angular.json\" \"README.md\" --list-different",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -24,6 +24,7 @@
     "@visurel/iconify-angular": "^11.0.0",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
+    "prettier": "^2.3.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
@@ -41,5 +42,11 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "typescript": "~4.3.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 80
   }
 }
