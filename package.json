@@ -2,6 +2,8 @@
   "name": "ubinetic-oracles-dashboard",
   "version": "0.0.0",
   "scripts": {
+    "actions:deploy": "ng deploy --name $GITHUB_ACTOR --email $GITHUB_ACTOR@users.noreply.github.com --no-silent",
+    "actions:prettier": "prettier \"src/**/*.ts\" \"e2e/**/*.ts\" \"angular.json\" \"README.md\" --list-different",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
